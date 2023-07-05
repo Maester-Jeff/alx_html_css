@@ -23,6 +23,7 @@ article div table, th, td {
 aside {
     flex: 1;
     overflow-y: auto;
+    background-color: rgb(243, 240, 246);
 }
 footer {
     background-color: rgb(194, 162, 223);
