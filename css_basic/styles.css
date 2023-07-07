@@ -19,6 +19,7 @@ article {
 }
 article div table, th, td {
     border: 1px solid black
+    
 }
 aside {
     flex: 1;
