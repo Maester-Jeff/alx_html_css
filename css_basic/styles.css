@@ -6,31 +6,45 @@ main {
     display: flex;
     flex-direction: row;
     flex: auto;
+    font-size: larger;
 }
 header {
     background-color: rgb(194, 162, 223);
+    border-radius: 10px;
+    font-size: 17px;
 }
 header ul li a {
     color: aliceblue;
 }
+main div a img {
+    border-radius: 2px;
+}
 article {
     flex: 2;
     overflow-y: auto;
+    border-radius: 10px;
+}
+h1, h2, h3, h4 {
+    font-family: Arial, sans-serif;
+    color: rgb(9, 0, 9);
 }
 article div table, th, td {
-    border: 1px solid black
-    
+    border: 2px solid black;
 }
 aside {
     flex: 1;
     overflow-y: auto;
     background-color: rgb(243, 240, 246);
+    border-radius: 10px;
 }
 footer {
     background-color: rgb(194, 162, 223);
+    border-radius: 10px;
 }
 footer p {
-    color: aliceblue; 
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
 }
 footer a {
     color: rgb(75, 9, 9);
