@@ -312,27 +312,7 @@
   .section {
     padding: var(--section-padding);
   }
-  
-  
-
  
-
-  .section-about-us {
-
-  }
-
-  .section-latest-news {
-
-  }
-
-  .section-testimonial {
-
-  }
-
-  .section-contact {
-
-  }
-
   .section-header {
     text-align: var(--section-header-align);
     padding: var(--section-header-padding);
@@ -473,7 +453,7 @@
       ============================= */
   
   .section-services {
-    margin: 0;
+  
   }
   .card-services .card-title {
     margin: 0;
@@ -524,4 +504,23 @@
     color: #efeded;
     font-size: 10rem;
     z-index: -1;
+  }
+  
+  /* ABOUT US SECTION  */
+  .section-about-us {
+  }
+
+  /* LATEST NEWS SECTION */
+
+  .section-latest-news {
+  }
+
+  /* TESTIMONIAL SECTION */
+
+  .section-testimonial {
+  }
+  
+  /* CONTACT SECTION */
+  
+  .section-contact {
   }
