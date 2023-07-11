@@ -181,14 +181,14 @@
       ============================= */
   
   ul.row {
-    display: flex;
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
   }
   
   [class*='col-'] {
-      padding: 0.5rem;
+    padding: 0.5rem;
   }
   
   .col-1-3 {
