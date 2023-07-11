@@ -520,5 +520,5 @@
 
   /* CONTACT SECTION */
   
-  section .section-contact {
+  section, .section-contact {
   }
