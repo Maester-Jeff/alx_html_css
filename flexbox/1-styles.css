@@ -384,7 +384,6 @@
       ============================= */
   
   .section-works {
-
   }
   
   .card-work .card-outer {
@@ -452,7 +451,7 @@
   /* Card SERVICES
       ============================= */
   
-  .section-services {
+  . section .section-services {
   
   }
   .card-services .card-title {
