@@ -383,9 +383,6 @@
   /* Card WORK
       ============================= */
   
-  .section-works {
-  }
-  
   .card-work .card-outer {
     position: relative;
     overflow: hidden;
@@ -450,10 +447,7 @@
   
   /* Card SERVICES
       ============================= */
-  
-  .section-services {
-  
-  }
+ 
   .card-services .card-title {
     margin: 0;
   }
@@ -475,10 +469,6 @@
   /* Card TESTIMONIAL
       ============================= */
   
-  .section-testimonial {
-
-  }
-
   .card-testimonial {
     text-align: center;
   }
@@ -509,16 +499,3 @@
     z-index: -1;
   }
   
-  /* ABOUT US SECTION  */
-  .section-about-us {
-  }
-
-  /* LATEST NEWS SECTION */
-
-  .section-latest-news {
-  }
-
-  /* CONTACT SECTION */
-  
-  .section-contact {
-  }
