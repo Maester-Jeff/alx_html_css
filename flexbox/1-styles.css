@@ -313,13 +313,9 @@
     padding: var(--section-padding);
   }
   
-  .section-services {
+  
 
-  }
-
-  .section.works {
-
-  }
+ 
 
   .section-about-us {
 
@@ -336,7 +332,7 @@
   .section-contact {
 
   }
-  
+
   .section-header {
     text-align: var(--section-header-align);
     padding: var(--section-header-padding);
@@ -407,6 +403,10 @@
   /* Card WORK
       ============================= */
   
+  .section.works {
+
+  }
+  
   .card-work .card-outer {
     position: relative;
     overflow: hidden;
@@ -472,6 +472,9 @@
   /* Card SERVICES
       ============================= */
   
+  .section-services {
+
+  }
   .card-services .card-title {
     margin: 0;
   }
