@@ -403,7 +403,7 @@
   /* Card WORK
       ============================= */
   
-  .section.works {
+  .section-works {
 
   }
   
@@ -473,7 +473,7 @@
       ============================= */
   
   .section-services {
-
+    margin: 0;
   }
   .card-services .card-title {
     margin: 0;
