@@ -383,7 +383,7 @@
   /* Card WORK
       ============================= */
   
-  .section-works {
+  section .section-works {
   }
   
   .card-work .card-outer {
@@ -451,7 +451,7 @@
   /* Card SERVICES
       ============================= */
   
-  . section .section-services {
+  section .section-services {
   
   }
   .card-services .card-title {
