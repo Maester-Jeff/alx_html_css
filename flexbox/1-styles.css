@@ -312,10 +312,7 @@
   .section {
     padding: var(--section-padding);
   }
-  .section-services {
 
-  }
-  
   .section-header {
     text-align: var(--section-header-align);
     padding: var(--section-header-padding);
@@ -386,7 +383,7 @@
   /* Card WORK
       ============================= */
   
-  section .section-works {
+  .section-works {
   }
   
   .card-work .card-outer {
@@ -454,7 +451,7 @@
   /* Card SERVICES
       ============================= */
   
-  section .section-services {
+  .section-services {
   
   }
   .card-services .card-title {
@@ -478,6 +475,10 @@
   /* Card TESTIMONIAL
       ============================= */
   
+  .section-testimonial {
+
+  }
+
   .card-testimonial {
     text-align: center;
   }
@@ -517,11 +518,6 @@
   .section-latest-news {
   }
 
-  /* TESTIMONIAL SECTION */
-
-  .section-testimonial {
-  }
-  
   /* CONTACT SECTION */
   
   .section-contact {
