@@ -1,1 +1,0 @@
-This is the project for the html advanced file. Here, a css is created to decorate this website based on the provided figma files.
