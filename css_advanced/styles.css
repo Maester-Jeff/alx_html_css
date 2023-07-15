@@ -15,7 +15,7 @@
    ============================= */
 
    :root {
-    --color-primary: #FF6565;
+    --color-primary: #C271FF;
     --color-dark-blue: #071629;
     --color-white: #ffffff;
     
@@ -162,13 +162,10 @@
   }
 
   body {
-    color: var(--color-white);
+    color: var(--color-dark-blue);
     font-family: var(--font-family-base);
     font-size: var(--font-size-small);
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    font-weight: var(--font-weight-bold);
-  }
