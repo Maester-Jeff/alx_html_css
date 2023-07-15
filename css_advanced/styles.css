@@ -1,10 +1,9 @@
 /* SUMMARY
     1. GLOBAL
-    2. PAGE LAYOUT
-    3. SECTION
+    2. PAGE SECTIONS
 */
 
-/*** 1. GLOBAL ***/
+/** 1. GLOBAL **/
 
 /* Reset / Normalize
    ============================= */
@@ -155,7 +154,7 @@
   }
 
   /* Base Styling
-    ============================= */
+      ============================= */
 
   html {
   scroll-behavior: smooth;
@@ -168,4 +167,9 @@
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
   }
+
+  /** 2. PAGE SECTIONS
+      ============================= */
+
+
 
