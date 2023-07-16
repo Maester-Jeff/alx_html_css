@@ -167,11 +167,11 @@
     font-size: var(--font-size-medium);
     font-family: var(--font-family-bold);
     margin-bottom: 40px;
-    word-spacing: 60px;
+    word-spacing: 50px;
     margin-left: 210px;
   }
 
-  .button {
+  .hero-section .button {
     border: 1px;
     margin-left: 260px;
     margin-bottom: 130px;
@@ -181,8 +181,10 @@
     background-color: var(--color-primary);
     text-decoration: none;
     border-radius: 80px;
-    width: 180px;
+    width: 162px;
     height: 44px;
+    box-shadow: 1px 1px 15px var(--color-dark-blue);
+    cursor: pointer;
   }
 
   .hero-body ul {
@@ -266,4 +268,158 @@
   
   /* b. Quote section 
         ============================= */
+
+  .video-section {
+    box-sizing: border-box;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+  }
   
+  .video-section h3 {
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-large);
+    font-weight: var(--font-weight-regular);
+  }
+
+  .video-section-h3 {
+    color: var(--color-primary);
+  }
+
+  .video-section ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    margin-bottom: 60px;
+  }
+
+  .video-section-inner {
+    line-height: var(--line-height-base);
+    margin-left: 15px;
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-small);
+    position: relative;
+    top: -15px;
+  }
+
+  .video-section-inner h4 {
+    font-size: var(--font-size-medium);
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .video-section-inner p {
+    margin-bottom: 0;
+    padding: 0;
+  }
+  .video-section-image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: var(--font-size-small);
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .video-section-image img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .video-section-image h5 {
+    font-size: var(--font-size-medium);
+    font-family: var(--font-family-title);
+    line-height: var(--line-height-x-small);
+    color: var(--color-primary);
+  }
+
+  .video-section-stars {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: -10px;
+  }
+
+  .video-section-stars p {
+    margin-right: 20px;
+    color: var(--color-primary);
+    font-family: var(--font-family-title);
+  }
+
+  /* b. Membership section 
+        ============================= */
+
+  .membership-section {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--color-dark-blue);
+    color: var(--color-white);
+  }
+
+  .membership-section h3 {
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-large);
+    font-weight: var(--font-weight-regular);
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+
+  .membership-section-title {
+    color: var(--color-primary);
+  }
+
+  .membership-section ul {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    text-align: center;
+    list-style: none;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    gap: 160px;
+  }
+
+  .membership-section-content img, h4, p {
+    margin: 10px auto;
+  }
+
+  .membership-section h4 {
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-l-medium);
+  }
+
+  .membership-section p {
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-small);
+  }
+
+  .membership-section .button {
+    border: 2px;
+    border-radius: 80px;
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    margin-bottom: 40px;
+    font-size: var(--font-size-small);
+    text-decoration: none;
+    text-align: center;
+    width: 162px;
+    height: 44px;
+    box-shadow: 1px 1px 15px var(--color-dark-blue);
+    cursor: pointer;
+    margin-bottom: 50px;
+  }
+
+  /* c. FAQ section 
+        ============================= */
+
+  .
