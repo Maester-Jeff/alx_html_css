@@ -211,7 +211,7 @@
     text-align: center;
   }
 
-  #hero-body-content {
+  .hero-body-content2 {
     line-height: var(--line-height-small);
     font-family: var(--font-family-bold);
     font-size: var(--font-size-l-medium);
